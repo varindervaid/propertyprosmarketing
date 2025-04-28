@@ -1,35 +1,43 @@
-# Track Ease
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3
 
-## Recommended IDE Setup
+# Customer Affiliate Portal
 
-[VSCode](https://code.visualstudio.com/) 
+A **Vue.js** project that manages the **registration** and **login** process for affiliates, along with a full-featured **customer portal** where users can track their affiliate performance.
 
-## Type Support for `.vue` Imports in TS
+## Features
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. 
+- **Affiliate Registration and Login**  
+  Secure registration and login system built for affiliates.
 
-## Project Setup
+- **Customer Dashboard**  
+  Once logged in, users can access a dashboard displaying:
+  - **Visitor Count** – number of people who visited through their link
+  - **Lead Count** – number of leads generated
+  - **Conversion Count** – number of successful conversions
+  
+- **Additional Sections**
+  - **Referrals Tab** – view referred users and their details
+  - **Payouts Tab** – track payout history and statuses
+  - **Commissions Tab** – monitor earned commissions
 
-```sh
-npm install
-```
+## Tech Stack
 
-### Compile and Hot-Reload for Development
+- **Frontend:** Vue.js 3
+- **Authentication:** JWT
 
-```sh
-npm run dev
-```
+## Getting Started
 
-### Type-Check, Compile and Minify for Production
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/varindervaid/propertyprosmarketing.git
+   ```
 
-```sh
-npm run build
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+3. Start the development server:
+   ```bash
+   npm run start
+   ```
