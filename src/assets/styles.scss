@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+@use "primeicons/primeicons.css";
+@use "@/assets/tailwind.css";
+@use "@/assets/layout/layout.scss";
+@use "@/assets/demo/demo.scss";
+
+.create_affiliate_link_modal {
+  .panel {
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
+
+    .new_affiliate_link {
+      .input-group {
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        border: 1px solid #d4dde7;
+        margin-bottom: 7px;
+
+        input {
+          width: 100%;
+          padding-inline: 15px;
+          outline: none;
+        }
+
+        // .form-control:focus {
+        //   color: #152332;
+        //   background-color: #ffffff;
+        //   border-color: #1884ff;
+        //   outline: 0;
+        //   box-shadow: 0 0 0 0.25rem rgba(24, 132, 255, 0.25);
+        // }
+
+        .input-group-text {
+          display: flex;
+          align-items: center;
+          padding: 0.5rem 1rem;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.75;
+          color: #3d4d5f;
+          text-align: center;
+          white-space: nowrap;
+          background-color: #f2f6f9;
+          border-right: 1px solid #d4dde7;
+        }
+      }
+    }
+  }
+}

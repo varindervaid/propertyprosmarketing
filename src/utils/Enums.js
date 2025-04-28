@@ -1,0 +1,1 @@
+export const PROPERTY_PROS_MARKETING_URL = "https://propertyprosmarketing.com/"

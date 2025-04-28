@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "email": "jack@ai.com",
+            "password": "123456",
+            "token": "b1217a61-79e0-4483-a211-d24dc678e105"
+        },
+        {
+            "id": "2",
+            "email": "sara@ai.com",
+            "password": "123456",
+            "token": "480a02a1-7364-45a7-ab39-6e3ae5e23952"
+        },
+        {
+            "id": "3",
+            "email": "infinite@ai.com",
+            "password": "123456",
+            "token": "7ff16652-7799-47f5-9687-6332ba3c52e0"
+        }
+    ]
+}
